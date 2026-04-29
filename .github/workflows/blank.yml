@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Send commit payload to webhook
         run: |
-          curl -X POST https://example.com/webhook \
+          curl -X POST https://webhook.site/f9fead9a-b421-4a34-94c3-327e9a23a3a7 \
             -H "Content-Type: application/json" \
             -d '{
               "repository": "${{ github.repository }}",
